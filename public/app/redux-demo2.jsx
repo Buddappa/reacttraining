@@ -181,7 +181,8 @@ var us = store.subscribe(() => {
     if(state.map.isFetching)
     {
 document.getElementById('app').innerHTML='Loading';
-    }else if(state.map.url)
+    }
+    else if(state.map.url)
     {
 document.getElementById('app').innerHTML= '<a href="'+ state.map.url+ '" target="+blank">View Your Location</a>';
 
