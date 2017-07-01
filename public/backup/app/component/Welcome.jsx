@@ -11,6 +11,7 @@ var Welcome = React.createClass({
       country:'India'
     };
   },
+  
   getInitialState: function () {
     return {
         name: this.props.name,
